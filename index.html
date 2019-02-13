@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 
     <title>Jesse</title>
   </head>
@@ -27,11 +28,16 @@
               Blog
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="blog/sprint1/sprint1-technical.html">Sprint 1</a>
-              <a class="dropdown-item" href="blog/sprint2/sprint2_technical">Sprint 2</a>
-              <a class="dropdown-item" href="#">Sprint 3</a>
-              <a class="dropdown-item" href="#">Sprint 4</a>
-              <a class="dropdown-item" href="#">Sprint 5</a>
+              <a class="dropdown-item" href="blog/sprint1/sprint1_technical.html">Sprint 1 Technical</a>
+              <a class="dropdown-item" href="blog/sprint1/sprint1_cultural.html">Sprint 1 Cultural</a>
+              <a class="dropdown-item" href="blog/sprint2/sprint2_technical.html">Sprint 2 Technical</a>
+              <a class="dropdown-item" href="blog/sprint2/sprint2_cultural.html">Sprint 2 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 3 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 3 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 4 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 4 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 5 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 5 Cultural</a>
             </div>
           </li>
         </ul>
@@ -78,22 +84,22 @@
     </div>
 
       <div class="jumbotron">
-        <form>
+        <form action="https://formspree.io/jesse.collier.response@gmail.com" method="POST">
           <div class="form-group">
-            <label for="email">Email address </label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <label for="emailArea">Email address </label>
+            <input name="email" type="email" class="form-control" id="emailArea" aria-describedby="emailHelp" placeholder="Enter email" required>
           </div>
 
-          <div class="form-group">
-              <label for="exampleFormControlTextarea1">Subject:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter Subject"></textarea>
-          </div>
+          <!-- <div class="form-group">
+              <label for="nameArea">Name:</label>
+              <textarea class="form-control" id="nameArea" rows="1" placeholder="Enter Name" required></textarea>
+          </div> -->
 
           <div class="form-group">
-              <label for="Textarea1">Message</label>
-              <textarea class="form-control" id="Textarea1" rows="5" placeholder="this form is not currently working"></textarea>
+              <label for="message">Message</label>
+              <textarea name="_replyto" class="form-control" id="message" rows="5" placeholder="Tell me what you think" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" value="Send" class="btn btn-primary">Submit</button>
         </form>
       </div>
 
