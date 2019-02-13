@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(51,0,102);
+}
+h2 {
+    color: rgb(21, 136, 27);
+} 
+h3 {
+    color: rgb(170, 161, 27);
+}
+h4 {
+    color: rgb(29, 110, 121)
+}
+p {
+    color: rgb(182, 35, 79);
+}
+.bold_boi {
+    font-weight: bold;
+     color: rgb(28, 21, 126)
+}
